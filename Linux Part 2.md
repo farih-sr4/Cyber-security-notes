@@ -11,3 +11,14 @@ More commands to interact with filesystem:
   - cp -> copy a file or folder
   - mv -> move a file or folder
   - rm -> remove a file or folder
+
+We generally use the word root('/') to mention the top of a directory. It has several branched directories that are very important in linux filesystem.
+
+Important root directories:
+  - /etc -> The etc(etcetera) root directory is very important directory, which holds the system and program files. For example, the sudoers file contains the list of the users & groups that have permission to run sudo or a set of commands as the root user.
+    
+  - /var -> The variable data directory is another important directory that stores data that services and applications write to or read often, like log files (kept in /var/log), and other data not tied to a specific user, such as databases.
+
+  - /root -> The /root directory is nothing but the home directory of the of the system 'root' user.
+
+  - /tmp -> Short for 'temporary', this directory is temporary and is used to store data that is only needed to be accessed once or twice. Once the computer is restarted, the contents of the directory is cleared out.
